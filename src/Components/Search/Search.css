@@ -1,0 +1,78 @@
+/* SearchResults.css */
+
+.search-page-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-results-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark gray color for the header text */
+}
+
+.search-results-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0; /* Light border for separation */
+    margin-bottom: 16px;
+    padding: 12px;
+    transition: background-color 0.3s;
+}
+
+.search-result-item:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+}
+
+.search-result-item img {
+    width: 168px; /* Thumbnail size similar to YouTube */
+    height: 94px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.search-result-info {
+    flex: 1;
+}
+
+.search-result-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a0b0c; /* YouTube's blue link color */
+    margin: 0 0 8px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-result-title:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+.search-result-description {
+    font-size: 14px;
+    color: #606060; /* Lighter gray for description text */
+    line-height: 1.5;
+    margin: 0;
+}
+
+.search-result-meta {
+    font-size: 12px;
+    color: #909090; /* Very light gray for meta info */
+    margin-top: 8px;
+}
